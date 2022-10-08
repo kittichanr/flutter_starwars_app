@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>728139696421-lrno3mtsv369v24h6srmsjnhnmk6k5jb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.728139696421-lrno3mtsv369v24h6srmsjnhnmk6k5jb</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAgU-qsa5bZSMNt3DMczvT2p3N4Px_hsoU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>728139696421</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.flutterStarwarsApp</string>
+	<key>PROJECT_ID</key>
+	<string>flutter-starwars-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>flutter-starwars-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:728139696421:ios:5ea2621d123d243b1d72cc</string>
+</dict>
+</plist>

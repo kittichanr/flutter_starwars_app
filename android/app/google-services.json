@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "728139696421",
+    "project_id": "flutter-starwars-app",
+    "storage_bucket": "flutter-starwars-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728139696421:android:58fc65d9ad7f6e501d72cc",
+        "android_client_info": {
+          "package_name": "com.example.flutter_starwars_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728139696421-366oe404iq9hdcplhdfi59tl510b9nr9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx_-ANEfmSn6KzXMEJFD-Fl7G0mxXKGkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728139696421-366oe404iq9hdcplhdfi59tl510b9nr9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
