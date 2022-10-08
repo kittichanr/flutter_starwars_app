@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:flutter_starwars_app/src/modules/auth/models/user.dart';
-import 'package:flutter_starwars_app/src/modules/auth/repositories/authentication_repository.dart';
+import 'package:flutter_starwars_app/src/modules/auth/data/models/user.dart';
+import 'package:flutter_starwars_app/src/modules/auth/data/repositories/authentication_repository.dart';
 
 part 'app_event.dart';
 part 'app_state.dart';

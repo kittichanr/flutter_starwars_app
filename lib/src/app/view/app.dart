@@ -4,7 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_starwars_app/src/app/bloc/app_bloc.dart';
 import 'package:flutter_starwars_app/src/app/routes/routes.dart';
 import 'package:flutter_starwars_app/src/core/theme.dart';
-import 'package:flutter_starwars_app/src/modules/auth/repositories/authentication_repository.dart';
+import 'package:flutter_starwars_app/src/modules/auth/data/repositories/authentication_repository.dart';
 
 class App extends StatelessWidget {
   const App(

@@ -3,8 +3,8 @@ import 'dart:async';
 import 'package:firebase_auth/firebase_auth.dart' as firebase_auth;
 import 'package:firebase_auth_platform_interface/firebase_auth_platform_interface.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
-import 'package:flutter_starwars_app/src/modules/auth/models/user.dart';
-import 'package:flutter_starwars_app/src/modules/auth/repositories/cache.dart';
+import 'package:flutter_starwars_app/src/modules/auth/data/models/user.dart';
+import 'package:flutter_starwars_app/src/modules/auth/data/repositories/cache.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:meta/meta.dart';
 

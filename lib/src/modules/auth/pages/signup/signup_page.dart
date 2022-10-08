@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_starwars_app/src/modules/auth/pages/signup/cubit/signup_cubit.dart';
-import 'package:flutter_starwars_app/src/modules/auth/repositories/authentication_repository.dart';
+import 'package:flutter_starwars_app/src/modules/auth/data/repositories/authentication_repository.dart';
 import 'package:flutter_starwars_app/src/modules/auth/widgets/signup_form.dart';
 
 class SignUpPage extends StatelessWidget {

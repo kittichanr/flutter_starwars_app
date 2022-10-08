@@ -1,8 +1,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:flutter_starwars_app/src/modules/auth/models/email.dart';
-import 'package:flutter_starwars_app/src/modules/auth/models/password.dart';
-import 'package:flutter_starwars_app/src/modules/auth/repositories/authentication_repository.dart';
+import 'package:flutter_starwars_app/src/modules/auth/data/models/email.dart';
+import 'package:flutter_starwars_app/src/modules/auth/data/models/password.dart';
+import 'package:flutter_starwars_app/src/modules/auth/data/repositories/authentication_repository.dart';
 import 'package:formz/formz.dart';
 
 part 'login_state.dart';
