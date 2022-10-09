@@ -21,9 +21,6 @@ class App extends StatelessWidget {
         create: (BuildContext context) =>
             AppBloc(authenticationRepository: _authenticationRepository));
 
-    final starwarsBloc = BlocProvider<StarwarsBloc>(
-        create: (BuildContext context) => StarwarsBloc(StarWarsRepository()));
-
     return MultiRepositoryProvider(
       providers: [
         RepositoryProvider<AuthenticationRepository>(
@@ -32,7 +29,7 @@ class App extends StatelessWidget {
             create: (context) => StarWarsRepository()),
       ],
       child: MultiBlocProvider(
-        providers: [appBloc, starwarsBloc],
+        providers: [appBloc],
         child: const AppView(),
       ),
     );

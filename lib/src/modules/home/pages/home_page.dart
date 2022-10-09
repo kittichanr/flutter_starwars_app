@@ -15,9 +15,8 @@ class HomePage extends StatelessWidget {
     final textTheme = Theme.of(context).textTheme;
     final user = context.select((AppBloc bloc) => bloc.state.user);
     return BlocProvider(
-      create: (context) => StarwarsBloc(
-        RepositoryProvider.of<StarWarsRepository>(context),
-      )..add(GetPeopleEvent()),
+      create: (context) => StarwarsBloc(context.read<StarWarsRepository>())
+        ..add(GetPeopleEvent()),
       child: Scaffold(
         appBar: AppBar(
           title: const Text('Home'),
