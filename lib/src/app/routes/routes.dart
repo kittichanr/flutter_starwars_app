@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_starwars_app/src/app/app.dart';
 import 'package:flutter_starwars_app/src/modules/auth/pages/login/login_page.dart';
-import 'package:flutter_starwars_app/src/modules/home/pages/home/home_page.dart';
+import 'package:flutter_starwars_app/src/modules/home/pages/home_page.dart';
 
 List<Page<dynamic>> onGenerateAppViewPages(
   AppStatus state,

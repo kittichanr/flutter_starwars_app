@@ -45,6 +45,7 @@ dependencies:
   google_sign_in: ^5.4.2
   meta: ^1.8.0
   firebase_auth_platform_interface: ^6.10.1
+  http: ^0.13.5
 
 dev_dependencies:
   flutter_test:
