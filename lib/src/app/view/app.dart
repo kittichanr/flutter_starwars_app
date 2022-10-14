@@ -5,7 +5,7 @@ import 'package:flutter_starwars_app/src/app/bloc/app_bloc.dart';
 import 'package:flutter_starwars_app/src/app/routes/routes.dart';
 import 'package:flutter_starwars_app/src/core/theme.dart';
 import 'package:flutter_starwars_app/src/modules/auth/data/repositories/authentication_repository.dart';
-import 'package:flutter_starwars_app/src/modules/home/data/repositories/starwars_repository.dart';
+import 'package:flutter_starwars_app/src/app/repositories/starwars_repository.dart';
 import 'package:flutter_starwars_app/src/modules/home/pages/bloc/starwars_bloc.dart';
 
 class App extends StatelessWidget {
@@ -21,6 +21,9 @@ class App extends StatelessWidget {
         create: (BuildContext context) =>
             AppBloc(authenticationRepository: _authenticationRepository));
 
+    final starwarsBloc = BlocProvider<StarwarsBloc>(
+        create: (BuildContext context) => StarwarsBloc(StarWarsRepository()));
+
     return MultiRepositoryProvider(
       providers: [
         RepositoryProvider<AuthenticationRepository>(
@@ -29,7 +32,7 @@ class App extends StatelessWidget {
             create: (context) => StarWarsRepository()),
       ],
       child: MultiBlocProvider(
-        providers: [appBloc],
+        providers: [appBloc, starwarsBloc],
         child: const AppView(),
       ),
     );

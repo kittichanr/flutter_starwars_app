@@ -8,3 +8,5 @@ abstract class StarwarsEvent extends Equatable {
 }
 
 class GetPeopleEvent extends StarwarsEvent {}
+
+class GetPeoplesEvent extends StarwarsEvent {}
