@@ -61,22 +61,22 @@ class People {
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['birth_year'] = this.birthYear;
-    data['eye_color'] = this.eyeColor;
-    data['films'] = this.films;
-    data['gender'] = this.gender;
-    data['hair_color'] = this.hairColor;
-    data['height'] = this.height;
-    data['homeworld'] = this.homeworld;
-    data['mass'] = this.mass;
-    data['name'] = this.name;
-    data['skin_color'] = this.skinColor;
-    data['created'] = this.created;
-    data['edited'] = this.edited;
-    data['species'] = this.species;
-    data['starships'] = this.starships;
-    data['url'] = this.url;
-    data['vehicles'] = this.vehicles;
+    data['birth_year'] = this.birthYear ?? '';
+    data['eye_color'] = this.eyeColor ?? '';
+    data['films'] = this.films ?? [];
+    data['gender'] = this.gender ?? '';
+    data['hair_color'] = this.hairColor ?? '';
+    data['height'] = this.height ?? '';
+    data['homeworld'] = this.homeworld ?? '';
+    data['mass'] = this.mass ?? '';
+    data['name'] = this.name ?? '';
+    data['skin_color'] = this.skinColor ?? '';
+    data['created'] = this.created ?? '';
+    data['edited'] = this.edited ?? '';
+    data['species'] = this.species ?? [];
+    data['starships'] = this.starships ?? [];
+    data['url'] = this.url ?? '';
+    data['vehicles'] = this.vehicles ?? [];
     return data;
   }
 }
